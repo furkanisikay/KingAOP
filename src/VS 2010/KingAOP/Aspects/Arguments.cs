@@ -64,7 +64,7 @@ namespace KingAOP.Aspects
             return GetEnumerator();
         }
 
-        object GetArgument(uint index)
+        public object GetArgument(uint index)
         {
             return _objects[index];
         }
